@@ -1,0 +1,101 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\title{Placement Test}
+\author{Lecturer: Peter Richt\'{a}rik, \\
+TAs:	Grigory Malinovskiy, Egor Shulgin, Elnur Gasanov}
+\date{September 2023}
+
+\begin{document}
+	
+	\maketitle
+
+\iffalse	
+	This is a test for the professor and teaching assistant to assess the audience's level. Please do not worry if you do not know or remember something. Feel free to share your thoughts and ideas on each question.
+	\fi
+	
+	
+	\section{Linear Algebra}
+	\subsection*{Problem 1.1}
+	Please provide definitions of the scalar product and norm in $\mathbb{R}^d$. %What properties of a general inner product and norm do you know? What are the meanings of these concepts?
+	
+	\vspace{40 pt}
+	
+	\subsection*{Problem 1.2}
+	Please provide definitions of eigenvectors, eigenvalues, and the eigendecomposition of a matrix. %What conditions are necessary for eigendecomposition? 
+	What other methods of matrix factorization do you know?
+	
+	\vspace{50 pt}
+	
+	\subsection*{Problem 1.3}
+	
+	Consider the matrix $\textbf{A}$, which is constructed from vectors $a_1, a_2, \dots, a_k \in \mathbb{R}^d$ as follows: $\textbf{A} = [a_1 | a_2 | \dots | a_k]$, meaning that the $i$-th column of $\textbf{A}$ corresponds to $a_i$. Let us define another matrix $\textbf{B}$ as $\textbf{B}\overset{\text{def}}{=} \sum\limits_{i=1}^k a_i a_i^\top$. What are the dimensions of both matrices $\textbf{A}$ and $\textbf{B}$? What is the relation between matrices $\textbf{A}$ and $\textbf{B}$?
+	
+	\vspace{50 pt}
+	
+	\section{Calculus}
+	
+	\subsection*{Problem 2.1}
+	
+	Calculate the derivative of the function $f(x) = a x + \frac{1}{1 + e^x}$.
+	
+	\subsection*{Problem 2.2}
+	
+	Calculate the gradient of the function $f(x_1, x_2) = 5 x_1^3 + 2 x_2^2$.
+	
+	\subsection*{Problem 2.3}
+	
+	Calculate the gradient of the function $f(x) = \|x\|^2 + \frac{1}{2} x^\top A x + x^\top c + \|Bx - y\|^2$.
+	
+	\vspace{20 pt}
+	
+	\subsection*{Problem 2.4}
+	
+	What is the geometrical meaning of the gradient? 
+	
+	\vspace{10 pt}
+	
+	\section{Probability and Statistics}
+	\subsection*{Problem 3.1}
+	Provide definitions of the expected value and variance of a random variable, considering both the discrete and continuous cases. What properties are associated with the expected value and variance? Formulate Markov's inequality.
+	
+	\vspace{70 pt}
+	
+	\subsection*{Problem 3.2}
+	Compute expectation and variance of a Bernoulli random variable $X$ defined as
+	$\Pr(X=1) = p = 1 - \Pr(X=0) = 1 - q$.
+	
+	\vspace{40 pt}
+	
+	% Please describe the linear regression model and formulate the Mean Squared Error. Share any properties you are aware of regarding the linear regression model. Can you also provide an intuitive explanation of this approach?
+	
+	\subsection*{Problem 3.3}
+	
+	Let $x \in \mathbb{R}^d$. Consider the random variable $X = Qx$, where $Q$ is an orthogonal matrix drawn from a uniform random distribution over orthogonal matrices in $\mathbb{R}^{d\times d} $. Calculate the expectation and covariance matrix of the random variable~$X$.
+	
+	\vspace{40 pt}
+	
+	\section{Optimization}
+	
+	\subsection*{Problem 4.1}
+	Define convex and strongly convex functions. Can you list the properties of convex and strongly convex functions? Why is convexity considered a desirable property?
+	
+	\vspace{40 pt}
+	
+	\subsection*{Problem 4.2}
+	Explain how Gradient Descent and Stochastic Gradient Descent methods work and provide formulas for their updates.
+	
+	\section{Machine Learning}
+	\subsection*{Problem 5.1}
+	What are supervised and unsupervised learning? What distinguishes these two approaches? Provide examples.
+	
+	\vspace{100 pt}
+	
+	\subsection*{Problem 5.2}
+	
+	Describe the linear regression model and formulate the Mean Squared Error.
+	
+	
+\end{document}
